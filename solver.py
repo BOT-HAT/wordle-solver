@@ -6,9 +6,8 @@ with open('words.csv', newline='') as f:
 
 list_5=[]
 for word in words:
-    if len(word[0]) == 5:
-        list_5.append(word[0])
-        
+    list_5.append(word[0])
+
 #step 1
 word_1="power"
 print("Enter the word 'POWER' oe some other word and let us know the result")
@@ -32,7 +31,7 @@ while True:
             word_list=temp_word_list.copy()
             del temp_word_list
             temp_word_list=[]
-        counter=counter+1 
+        counter=counter+1
     counter=0
     for i in result:
         if i=='b':
